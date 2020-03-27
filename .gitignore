@@ -1,0 +1,11 @@
+/UnityCustom3rdPartyToolsLocations/.vs
+*.vcxproj.user
+/UnityCustom3rdPartyToolsLocations/UnityCustom3rdPartyToolsLocationsPlugin/x64
+/UnityCustom3rdPartyToolsLocations/UnityCustom3rdPartyToolsLocationsPlugin/Debug
+/UnityCustom3rdPartyToolsLocations/UnityCustom3rdPartyToolsLocationsPlugin/Release
+/UnityCustom3rdPartyToolsLocations/x64
+/UnityCustom3rdPartyToolsLocations/Debug
+/UnityCustom3rdPartyToolsLocations/Release
+/UnityCustom3rdPartyToolsLocations/detours/x64
+/UnityCustom3rdPartyToolsLocations/detours/Debug
+/UnityCustom3rdPartyToolsLocations/detours/Release
