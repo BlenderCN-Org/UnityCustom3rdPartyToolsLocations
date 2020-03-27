@@ -27,6 +27,13 @@ In order to customize the location of blender.exe for a specific project:
 
 In order to provide Unity with the path to the custom executable, the plugin hooks into the `FindExecutableW()` function. Unity uses this to find the program responsible for opening specific files, like .blend files. By hijacking the invocation the plugin can just return a custom executable locations when it sees fit, like the custom blender executable path when Unity wants to open a .blend file.
 
+## How to build
+
+- Clone the repo
+- Open `UnityCustom3rdPartyToolsLocations.sln` 
+- Build the project for x64 Release
+- Copy the plugin DLL from `UnityCustom3rdPartyToolsLocations\Release\UnityCustom3rdPartyToolsLocationsPlugin.dll` into your Unity project
+
 ## License
 
 This project is licensed under the [MIT](LICENSE) license.
