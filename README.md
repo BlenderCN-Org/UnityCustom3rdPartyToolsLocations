@@ -15,8 +15,8 @@ So this plugin is built to allow you to customize the paths to your 3rd party to
 
 In order to customize the location of blender.exe for a specific project:
 
-- Download the `UnityCustom3rdPartyToolsLocationsPlugin.dll` native plugin DLL for your platform
-- Put the Plugin DLL into your Unity project. Mark it as editor-only and "LoadOnStartup"
+- Download the appropriate release archive for your platform
+- Unzip the contents (DLL + meta) into your Asset folder
 - Close your Unity editor
 - Create a text file `blender-config.txt` into your unity project folder (next to the Assets, Library, ProjectSettings, .. folders)
 - Open the text file with a text editor and put the path to your blender.exe into it. It can be relative to the project directory, like `..\blender-2.79b-windows64\blender.exe` - save it
@@ -32,7 +32,7 @@ In order to provide Unity with the path to the custom executable, the plugin hoo
 - Clone the repo
 - Open `UnityCustom3rdPartyToolsLocations.sln` 
 - Build the project for x64 Release
-- Copy the plugin DLL from `UnityCustom3rdPartyToolsLocations\Release\UnityCustom3rdPartyToolsLocationsPlugin.dll` into your Unity project
+- Copy the DLL and meta from the folder `PackageTemplate` into your Unity project
 
 ## License
 
